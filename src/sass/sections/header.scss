@@ -5,7 +5,7 @@
   text-transform: uppercase;
 }
 
-.container {
+.header-container {
   max-width: 320px;
   display: flex;
   height: 80px;
@@ -142,7 +142,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .header-container {
     max-width: 748px;
   }
 
@@ -177,7 +177,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .header-container {
     max-width: 1180px;
   }
 }
