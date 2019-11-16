@@ -1,15 +1,14 @@
-
 .container {
   width: 280px;
   margin: auto;
   text-align: center;
 
-  @media (min-width: 708px) {
-    width: 700px;
+  @media (min-width: 768px) {
+    width: 748px;
   }
   
   @media (min-width: 1200px) {
-    width: 1145px;
+    width: 1180px;
   }
 }
 
