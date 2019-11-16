@@ -7,29 +7,33 @@
   @media (min-width: 708px) {
     width: 700px;
   }
+  
+  @media (min-width: 1200px) {
+    width: 1145px;
+  }
 }
 
 .features__title {
   padding-top: 60px;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
   font-size: 18px;
   line-height: 36px;
   
   @media (min-width: 708px) {
-    padding-bottom: 65px;
+    margin-bottom: 65px;
     font-size: 28px;
   }
 }
 
 .features__description {
-  padding-bottom: 35px;
+  margin-bottom: 35px;
   font-family: 'OpenSans-Regular'sans-serif;
   font-size: 16px;
   line-height: 26px;
+  color: $dark-gray;
 
   
   @media (min-width: 708px) {
-    padding-bottom: 50px;
     font-size: 18px;
     line-height: 36px;
   }
@@ -39,7 +43,8 @@
   font-family: Raleway-Bold;
   font-size: 18px;
   line-height: 18px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: $dark-gray;
 }
 
 .features-list {
@@ -50,10 +55,16 @@
 
   @media (min-width: 708px) {
     flex-wrap: wrap;
-    width: 700px;
     height: 780px;
-    padding-bottom: 110px;
     align-content: space-between;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 70px;
+    background-image: url(../images/key-features-sec/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
   }
 }
 
