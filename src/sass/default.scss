@@ -1,5 +1,6 @@
 .sec-title {
-  font-size: 28px;
+  margin: 0 auto;
+  font-size: 18px;
   font-family: 'Raleway-Bold';
   color: $primary-aqua;
   font-weight: 700;
@@ -7,4 +8,46 @@
   text-align: center;
   text-transform: uppercase;
   position: relative;
+  width: 160px;
+  @media (min-width: 768px) {
+    font-size: 28px;
+    width: 200px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 28px;
+    width: 200px;
+  }
+}
+
+.sec-title:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -75px;
+  background-color: rgb(83, 91, 100);
+  opacity: 0.4;
+  width: 60px;
+  height: 2px;
+}
+
+.sec-title:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -75px;
+  background-color: rgb(83, 91, 100);
+  opacity: 0.4;
+  width: 60px;
+  height: 2px;
+}
+
+.container {
+  @media (min-width: 768px) {
+    max-width: 748px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1180px;
+  }
 }

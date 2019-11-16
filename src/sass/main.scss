@@ -2,5 +2,18 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import './normalize.scss';
+@import './media.scss';
+@import './base.scss';
+@import './variables.scss';
+@import './default.scss';
+
+@import './sections/header.scss';
+@import './sections/contacts-form-sec.scss';
+@import './sections/feedbacks-sec.scss';
+@import './sections/footer.scss';
+@import './sections/intro-section.scss';
+@import './sections/key-features-sec.scss';
+@import './sections/our-team.scss';
+@import './sections/watch-video-sec.scss';
+
