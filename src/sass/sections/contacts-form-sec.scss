@@ -9,14 +9,13 @@
 
 .contacts-form-sec__wrapper {
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-bottom: 50px;
   @media (min-width: 768px) {
-    width: 80%;
+    // width: 748px;
   }
 
   @media (min-width: 1200px) {
+    // width: 1145px;
   }
 }
 
@@ -37,6 +36,7 @@
   color: $primary-white;
   line-height: 1;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contacts-description {
@@ -69,6 +69,7 @@
     justify-content: flex-start;
     width: 450px;
     text-align: left;
+    margin: 0;
   }
 }
 
@@ -204,6 +205,7 @@
   }
   width: 100%;
   @media (min-width: 1200px) {
+
   }
 }
 
@@ -305,6 +307,7 @@
     display: flex;
     flex-direction: row-reverse;
     padding-top: 40px;
+    justify-content: space-between;
   }
 }
 

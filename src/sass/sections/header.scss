@@ -13,7 +13,6 @@
   top: 21px;
   background-color: $primary-white;
   box-shadow: 0 1px 4px 0 $dark-gray;
-  padding: 15px;
   z-index: 10;
 }
 
@@ -151,8 +150,6 @@
 
 @media screen and (min-width: 768px) {
   .header-container {
-    padding-right: 30px;
-    padding-left: 30px;
   }
 
   .navigation,
@@ -189,8 +186,6 @@
 @media screen and (min-width: 1200px) {
   .header-container {
     max-width: 1180px;
-    padding-left: 50px;
-    padding-right: 35px;
     top: 30px;
   }
 }
