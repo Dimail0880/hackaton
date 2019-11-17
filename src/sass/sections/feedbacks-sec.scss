@@ -1,3 +1,16 @@
+.feedback__wrapper {
+  width: 292px;
+  margin: auto;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    width: 708px;
+  }
+  
+  @media (min-width: 1200px) {
+    width: 1145px;
+  }
+}
 
 .feedback__tittle {
   margin-bottom: 50px;
