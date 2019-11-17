@@ -11,7 +11,7 @@ const serve = () => {
   return browserSync.init({
     server: 'build',
     notify: false,
-    open: false,
+    open: true,
     cors: true,
     ui: false,
     logPrefix: 'DevServer',

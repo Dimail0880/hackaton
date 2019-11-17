@@ -45,10 +45,10 @@
 .container {
   width: 292px;
   @media (min-width: 768px) {
-    max-width: 748px;
+    width: 748px;
   }
 
   @media (min-width: 1200px) {
-    max-width: 1180px;
+    width: 1180px;
   }
 }
