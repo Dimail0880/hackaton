@@ -1,5 +1,12 @@
 .features{
   padding-top: 60px;
+  @media (min-width: 768px) {
+    padding-top: 105px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 95px;
+  }
 }
 
 .features__wrapper {
@@ -12,7 +19,6 @@
   }
 
   @media (min-width: 1200px) {
-    margin-bottom: 95px;
     width: 1118px;
   }
 }
