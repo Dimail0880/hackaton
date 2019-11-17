@@ -89,7 +89,7 @@
   justify-content: center;
   width: 270px;
   height: 303px;
-  background-color: #0eb493;
+  background-color: rgba(14, 180, 147, .85);
   opacity: 0;
 }
 
@@ -114,15 +114,14 @@
 .icon-item {
   height: 100%;
   display: block;
-  background-color: #000000;
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
   width: 32px;
   height: 32px;
 }
 
 .team-section-list__item:hover .team-section-list__cont {
-  opacity: 0.85;
+  opacity: 1;
 }
 
 h4 {
