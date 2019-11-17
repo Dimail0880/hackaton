@@ -45,7 +45,7 @@
 .intro_item {
     font-family: "OpenSans-SemiBold";
     color: $primary-white;
-    font-size: 16px;
+    font-size: 11px;
     line-height: 24px;
     position: relative;
     padding-left: 25px;
@@ -85,6 +85,7 @@
 
 .intro_btn--img {
     margin-right: 10px;
+    transition: linear 0.3s;
 }
 
 .intro_btn:hover {
