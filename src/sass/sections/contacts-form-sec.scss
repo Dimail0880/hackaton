@@ -33,7 +33,7 @@
 
 .contacts-title {
   font-size: 24px;
-  font-family: 'Raleway-SemiBold';
+  font-family: 'Raleway-SemiBold', sans-serif;
   color: $primary-white;
   line-height: 1;
   margin-top: 20px;
@@ -175,7 +175,7 @@
 .contacts-tel,
 .contacts-email {
   font-size: 14px;
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'OpenSans-SemiBold', sans-serif;
   color: $light-gray;
   line-height: 1.714;
   text-align: center;
